@@ -116,3 +116,9 @@ body{
   transform: rotate(145deg);
   transition-delay: 0.4s;
 }
+.background {
+  background-image: url(https://github.com/bumblebee026/Invitation/blob/master/background.png?raw=true);
+  background-size: contain;
+  width: 2000px;
+  height: 2000px;
+}
