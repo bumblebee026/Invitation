@@ -118,9 +118,9 @@ body{
 }
 .background {
   background-image: url(https://github.com/bumblebee026/Invitation/blob/master/background.png?raw=true);
-  //background-size: auto;
-  //width: 3024px;
-  //height: 2048px;
-  //background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background-size: contain;
+  //background-size: 100% 100%
+  //width: 500px;
+  //height: 500px;
+  background-attachment: fixed
 }
