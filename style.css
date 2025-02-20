@@ -121,4 +121,5 @@ body{
   background-size: contain;
   //width: 2000px;
   //height: 2000px;
+  background-repeat: no-repeat;
 }
