@@ -71,7 +71,7 @@ body{
   color: var(--txt-color);
   text-align: center;
   font-size: 15px;
- 
+  font-weight: bold;
 }
 
 
