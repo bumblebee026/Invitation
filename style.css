@@ -1,10 +1,10 @@
 :root{
   --primary: #fff;
-  //--bg-color: rgb(17, 52, 85);
+  --bg-color: #452c63;
   --bg-envelope-color: #f5edd1;
   --envelope-tab: #ecdeb8;
   --envelope-cover: #e6cfa7;
-  --shadow-color: rgba(0, 0, 0, 0.2);
+  //--shadow-color: rgba(0, 0, 0, 0.2);
   --txt-color: #000000;
   --heart-color: rgb(227,27,35);
 }
@@ -30,6 +30,7 @@ body{
   position: relative;
   width: 300px;
   height: 230px;
+  
 }
 .envelope-wrapper > .envelope::before {
   content: "";
@@ -42,6 +43,7 @@ body{
   transform-origin: top;
   transition: all 0.5s ease-in-out 0.7s;
 }
+
 .envelope-wrapper > .envelope::after {
   content: "";
   position: absolute;
@@ -52,6 +54,7 @@ body{
   border-right: 150px solid var(--envelope-cover);
   border-bottom: 100px solid var(--envelope-cover);
   border-left: 150px solid var(--envelope-cover);
+ 
 }
 .envelope > .letter {
   position: absolute;
@@ -73,7 +76,6 @@ body{
   font-size: 15px;
   font-weight: bold;
 }
-
 
 .heart {
   position: absolute;
@@ -115,12 +117,4 @@ body{
 .flap > .heart {
   transform: rotate(145deg);
   transition-delay: 0.4s;
-}
-.background {
-  background-image: url(https://github.com/bumblebee026/Invitation/blob/master/background.png?raw=true);
-  background-size: contain;
-  //background-size: 100% 100%
-  //width: 500px;
-  //height: 500px;
-  background-attachment: fixed
 }
