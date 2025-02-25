@@ -62,7 +62,7 @@ body{
   bottom: 0;
   width: 54%;
   height: 80%;
-  background: rgb(210,249,255);
+  background: #dff4ff;
   text-align: center;
   transition: all 1s ease-in-out;
   box-shadow: 0 0 5px var(--shadow-color);
